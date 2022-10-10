@@ -1,0 +1,124 @@
+body{
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+	font-size: medium;
+	font-style: normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+#logo{
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+.navigation ul {
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li {
+	letter-spacing: 1.5px;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:antiquewhite;
+	margin: 1px;
+	border: 0.5px solid gray;
+	border-radius: 6px;
+}
+
+.navigation li:hover{
+	background-color:beige;
+}
+
+.navigation li a{
+	color: black;
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	padding-top: 20px;
+	font-size: x-large;
+	line-height: 30px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2{
+	line-height: 26px;
+}
+
+.discri{
+	line-height: 30px;
+	padding-bottom: 29px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+
+.intro{
+	background-color: #DBE9EE;
+	box-sizing: border-box;
+	padding: 20px 40px;
+	text-align: center;
+	width: 100%;
+	position: relative;
+	display: inline-block;
+
+}
+
+.items{
+	padding: 20px 32px;
+	margin: 10px 30px;
+	display: inline-block;
+	width: 356px;
+	height: 380px;
+	background-color: gainsboro;
+	text-align: center;
+	border-radius: 9px;
+}
+
+.items:hover{
+	background-color:whitesmoke;
+}
+
+.cover{
+	border: 0.5px solid gray;
+	padding: 5px 5px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.discog{
+	margin: 20px 0;
+	background-color:whitesmoke;
+
+}
+
+footer{
+	margin-top: 44px;
+	border: 1px solid lightblue;
+    line-height: 20px;
+}
+
+.title{
+	line-height: 25px;
+	color: darkslategrey;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: larger;
+}
+
+figcaption{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	line-height: 25px;
+	font-family:'Courier New', Courier, monospace;
+}

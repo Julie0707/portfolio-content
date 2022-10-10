@@ -1,0 +1,74 @@
+body{
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+	font-size: medium;
+	font-style: normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navigation ul {
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li {
+	letter-spacing: 1.5px;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:antiquewhite;
+	margin: 1px;
+	border: 0.5px solid gray;
+	border-radius: 6px;
+}
+
+.navigation li:hover{
+	background-color:beige;
+}
+
+.navigation li a{
+	color: black;
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	text-decoration:underline;
+}
+
+h1{
+	padding-top: 20px;
+	font-size: x-large;
+	line-height: 30px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+	margin-top: 44px;
+	border: 1px solid lightblue;
+    line-height: 20px;
+}
+
+figcaption{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	line-height: 25px;
+	font-family:'Courier New', Courier, monospace;
+}
+
+.image{
+	border: 5px dashed lightgrey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	width:35%;
+	text-align: center;
+}
+
+p{
+	line-height: 25px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 15px 0;
+}
