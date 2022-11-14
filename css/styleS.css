@@ -63,7 +63,7 @@ figcaption{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px 10px;
-	width:35%;
+	width:40%;
 	text-align: center;
 }
 
@@ -72,3 +72,37 @@ p{
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	margin: 15px 0;
 }
+
+#guitars:hover {
+	animation-name: myfirstmove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+	animation-play-state: running;
+}
+
+@keyframes myfirstmove
+{
+    0%   {background-color: red;width:40%;}
+    25%  {background-color: yellow;width:50%;}
+    50%  {background-color: blue;width:60%;}
+    75%  {background-color: green;width:50%;}
+    100% {background-color: red;width:40%;}
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+	/* styles to apply if the user's settings are set to reduced motion */
+	#guitars:hover{
+		animation: none;
+	}
+}
+
+
+
+
+
+
+
+

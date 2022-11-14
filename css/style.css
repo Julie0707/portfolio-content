@@ -101,6 +101,7 @@ h2{
 	margin: 20px 0;
 	background-color:whitesmoke;
 
+
 }
 
 footer{
@@ -122,3 +123,27 @@ figcaption{
 	line-height: 25px;
 	font-family:'Courier New', Courier, monospace;
 }
+
+.container{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	align-content: space-around;
+	flex-direction: column;
+}
+
+/*
+@media all and (min-width: 800px){
+	.container{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		flex-wrap: wrap;
+		align-content: space-around;
+		flex-direction: row;
+		
+	}
+}
+*/
+
