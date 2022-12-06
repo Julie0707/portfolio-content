@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-N6X88H3BZK"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-N6X88H3BZK');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/beatles.ico">
 	<link rel="stylesheet" href="css/html5reset.css">
-	<link rel="stylesheet" href="css/styleM.css">
+	<link rel="stylesheet" href="css/style_m.css">
     <title>Members</title>
 </head>
 <body>
+    <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header>
+        <div class="fixed">
+            <figure id="logo">
+                <img src="images/The_Beatles_logo.png" alt="picture of the band logo" width="200"/>
+            </figure>
+        </div>
         <nav class="navigation">
             <ul>
-                <li><a href="#PrincipalMembers">Principal Members</a></li>
-                <li><a href="#EarlyMembers">Early Members</a></li>
-                <li><a href="#TouringMusician">Touring Musician</a></li>
+                <li><a href="index.html">HOME PAGE</a></li>
+                <li><a href="style.html">STYLE</a></li>
+                <li><a href="legacy.html">LEGACY</a></li>
+                <li id="members"><a href="members.html">MEMBERS</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
+    <main id = "main">
         <h1 id="PrincipalMembers">Principal Members</h1>
         <div class="container">
+
             <div class="items">
                 <h2>John Lennon</h2>
                 <div>vocals, guitars, keyboards, harmonica, bass</div>
                 <div>1960–1969; died 1980</div>
                 <figure class="photo">
-                    <img src="images/John_Lennon.jpeg" alt="photo of John Lennon" width="300"/>
+                    <img src="images/John_Lennon.jpeg" alt="photo of John Lennon" />
                     <figcaption>John Lennon</figcaption>
                 </figure>
                 <p>
@@ -42,7 +59,7 @@
                 <div>vocals, bass, guitars, keyboards, drums</div>
                 <div>1960–1970</div>
                 <figure class="photo">
-                    <img src="images/Paul_McCartney_live_in_Dublin.jpeg" alt="photo of Paul McCartney" width="300"/>
+                    <img src="images/Paul_McCartney_live_in_Dublin.jpeg" alt="photo of Paul McCartney"/>
                     <figcaption>Paul McCartney</figcaption>
                 </figure>
                 <p>
@@ -56,7 +73,7 @@
                 <div>guitars, vocals, sitar, keyboards, bass</div>
                 <div>1960–1970; died 2001</div>
                 <figure class="photo">
-                    <img src="images/George_Harrison.jpeg" alt="photo of George Harrison" width="300"/>
+                    <img src="images/George_Harrison.jpeg" alt="photo of George Harrison"/>
                     <figcaption>George Harrison</figcaption>
                 </figure>
                 <p>
@@ -70,45 +87,83 @@
                 <div>drums, percussion, vocals</div>
                 <div>1962–1970</div>
                 <figure class="photo">
-                    <img src="images/Ringo_Starr.jpeg" alt="photo of Ringo Starr" width="300"/>
+                    <img src="images/Ringo_Starr.jpeg" alt="photo of Ringo Starr" />
                     <figcaption>Ringo Starr</figcaption>
                 </figure>
                 <p>Sir Richard Starkey MBE, known professionally as Ringo Starr, is an English musician, singer, songwriter and actor who achieved international fame as the drummer for the Beatles. Starr occasionally sang lead vocals with the group, usually for one song on each album, including "Yellow Submarine" and "With a Little Help from My Friends". He also wrote and sang the Beatles songs "Don't Pass Me By" and "Octopus's Garden", and is credited as a co-writer of four others.</p>
             </div>
-    
-    
-
         </div>
 
+        <div id = "info">
+            <h1 id="EarlyMembers">Early Members</h1>
 
-        <h1 id="EarlyMembers">Early Members</h1>
+            <h2>Pete Best</h2>
+            <div>drums, vocals</div>
+            <div>1960–1962</div>
+    
+            <h2>Stuart Sutcliffe</h2>
+            <div>bass, vocals</div>
+            <div>1960–1961; died 1962</div>
+    
+            <h2>Chas Newby</h2>
+            <div>bass</div>
+            <div>1960–1961</div>
+    
+            <h2>Norman Chapman</h2>
+            <div>drums</div>
+            <div>1960; died 1995</div>
+    
+            <h2>Tommy Moore</h2>
+            <div>drums</div>
+            <div>1960; died 1981</div>
+    
+            <h1 id="TouringMusician">Touring Musician</h1>
+    
+            <h2>Jimmie Nicol</h2>
+            <div>drums</div>
+            <div>1964</div>
+        </div>
 
-        <h2>Pete Best</h2>
-        <div>drums, vocals</div>
-        <div>1960–1962</div>
-
-        <h2>Stuart Sutcliffe</h2>
-        <div>bass, vocals</div>
-        <div>1960–1961; died 1962</div>
-
-        <h2>Chas Newby</h2>
-        <div>bass</div>
-        <div>1960–1961</div>
-
-        <h2>Norman Chapman</h2>
-        <div>drums</div>
-        <div>1960; died 1995</div>
-
-        <h2>Tommy Moore</h2>
-        <div>drums</div>
-        <div>1960; died 1981</div>
-
-        <h1 id="TouringMusician">Touring Musician</h1>
-
-        <h2>Jimmie Nicol</h2>
-        <div>drums</div>
-        <div>1964</div>
-
+        <div id = "form">
+            <h1>ARE YOU INTERESTED IN THE FAN CLUB?</h1>
+            <h2>Fill out the form to become one of us!</h2>
+            <br>
+            <form action="https://formspree.io/f/mlevyqnp" method="POST">
+                <label for="username">Username:</label>
+                <br>
+                <input type="text" name="username" id="username">
+                <br>
+                <label for="email">Email:</label>
+                <br>
+                <input type="text" name="email" id="email">
+                <br>
+                <label for="user-pw">Password:</label>
+                <br>
+                <input type="password" id="user-pw" name="user-pw">
+                <br>
+                <label for="amount">How many years have you liked The Beatles?</label>
+                <br>
+                <input id="amount" type="number" step="1" min="0" name="amount">
+                <br>
+                <label for="albums">What are your favorite albums?</label>
+                <br>
+    			<input type="text" name="albums" id="albums">
+                <br>
+                <span>Would you like to receive information about our events?</span>
+                <br>
+                <input type="radio" id="yes" name="events" value="yes">
+                <label for="yes">Yes</label>	      
+                <input type="radio" id="no" name="events" value="no">
+                <label for="no">No</label>
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+       
+            </form>
+            
+            
+        </div>
+        
     </main>
     <footer>
         Sources: Wikipedia

@@ -1,0 +1,225 @@
+body{
+	margin: 10px;
+	padding: 10px 10px 10px 10px;
+	font-size: medium;
+	font-style: normal;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo{
+	text-align: center;
+	padding-top: 5px;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+.navigation ul {
+	margin-bottom: 20px;
+	padding: 0;
+	text-align: center;
+}
+
+.navigation li {
+	letter-spacing: 1.5px;
+	padding: 10px;
+	font-weight: 500;
+	font-size: 18px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:antiquewhite;
+	margin: 1px;
+	border: 0.5px solid gray;
+	border-radius: 6px;
+}
+
+.navigation li:hover{
+	background-color:beige;
+}
+
+.navigation li a{
+	color: black;
+	text-decoration: none;
+}
+
+.navigation li a:hover{
+	text-decoration:underline;
+}
+
+#style{
+	background-color: beige;
+}
+
+#style a{
+	text-decoration: underline;
+}
+
+
+h1{
+	padding-top: 20px;
+	font-size: x-large;
+	line-height: 30px;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+	margin-top: 44px;
+	border: 1px solid lightblue;
+    line-height: 20px;
+}
+
+figcaption{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: small;
+	line-height: 25px;
+	font-family:'Courier New', Courier, monospace;
+}
+
+.image{
+	border: 5px dashed lightgrey;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+	width:45%;
+	text-align: center;
+}
+
+.image img{
+	width: 80%;
+}
+
+p{
+	line-height: 25px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 15px 0;
+}
+
+.skip a{
+	background: white;
+	left: 0;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	/*Your code here - position relative to the parent */
+	position: absolute;
+	/*Your code here - place 500px left and 40px higher */;
+	left: -500px;
+	top: -40px;
+  }
+  
+.skip a:focus{
+	background: white;
+	top: 0;
+	left: 0;
+	padding: 6px;
+	-webkit-transition: top 1s ease-out;
+	transition: top 1s ease-out;
+	z-index: 1;
+	position: absolute;
+}
+
+#guitars:hover {
+	animation-name: myfirstmove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+	animation-play-state: running;
+}
+
+@keyframes myfirstmove
+{
+    0%   {background-color: red;width:45%;}
+    25%  {background-color: yellow;width:55%;}
+    50%  {background-color: blue;width:65%;}
+    75%  {background-color: green;width:55%;}
+    100% {background-color: red;width:45%;}
+}
+
+#abbey:hover {
+	animation-name: mysecondmove;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+	animation-play-state: running;
+}
+
+@keyframes mysecondmove
+{
+    0%   {background-color: red;width:45%;}
+    25%  {background-color: yellow;width:55%;}
+    50%  {background-color: blue;width:65%;}
+    75%  {background-color: green;width:55%;}
+    100% {background-color: red;width:45%;}
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+	/* styles to apply if the user's settings are set to reduced motion */
+	#guitars:hover{
+		animation: none;
+	}
+	#abbey:hover{
+		animation: none;
+	}
+	.skip a{
+		-webkit-transition: none;
+		transition: none;
+	}
+}
+@media only screen and (min-width:600px) and (max-width:1000px){
+	main{
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		row-gap: 20px;
+	}
+	.image{
+		width: 90%;
+	}
+	.image img{
+		width: 90%;
+	}
+
+	p1{
+		grid-row: 1 / span 1;
+		grid-column: 1 / span 1;
+	}
+}
+
+@media all and (min-width: 1000px){
+	main{
+		display: grid;
+		grid-template-columns: 45% 55%;
+		row-gap: 20px;
+	}
+	.image{
+		width: 90%;
+		
+	}
+
+	.pic1{
+		grid-column: 1 / span 1;
+		grid-row: 1 / span 1;
+
+	}
+
+	.image img{
+		width: 90%;
+	}
+	
+	p1{
+		grid-row: 1 / span 1;
+		grid-column: 2 / span 1;
+	}
+
+}
+
+
+
+
+
+
+
+
